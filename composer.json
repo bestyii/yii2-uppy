@@ -1,0 +1,23 @@
+{
+    "name": "bestyii/yii2-uppy",
+    "description": "yii2的方式引用uppy",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","uppy","upload"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Bestyii",
+            "email": "info@bestyii.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "npm-asset/uppy": "~2.0",
+        "npm-asset/uppy--locales": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "bestyii\\uppy\\": "src"
+        }
+    }
+}
